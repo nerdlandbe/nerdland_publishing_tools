@@ -1,7 +1,7 @@
 # nerdland_publishing_tools
 Tools we use to generate chaptered and tagged MP3 files for the Nerdland podcasts. 
 
-These are probably pretty specific to our workflow, but might be useful for other podcasters, especially the chaptering/tagging.
+These are probably pretty specific to our workflow, but might be useful for other podcasters, especially the chaptering/tagging, which makes our chapters compatible with all major podcast players.
 
 # Process
 Full process described in ``process.sh``
