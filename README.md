@@ -9,7 +9,7 @@ Full process described in ``process.sh``
 The **input** is:
 * MP3 file (eg ``april24.mp3``)
 * PNG visual (eg ``april24.png``)
-* Adobe Audition CSV file that contains the chapter markers (eg ``april24.csv``)
+* Adobe Audition CSV file that contains the chapter markers (eg ``april24.csv``). Note: the seperators should be TABs.
 
 The **output** is:
 * A chaptered and tagged MP3 file (eg ``april24-chapters.mp3``)
