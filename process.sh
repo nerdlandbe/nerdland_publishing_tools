@@ -57,7 +57,7 @@ for month in "${MONTHS[@]}"; do
 
     # Generate chaptered MP3
     logNice "info" "Writing chapters for $month$YEAR_SHORT"
-    $TAGGER --mp3 "$month$YEAR_SHORT.mp3" --cover "$month$YEAR_SHORT.png" --markers "$month$YEAR_SHORT.csv" --title "Nerdland maandoverzicht $month $YEAR_FULL" --artist "Nerdland" --overwrite
+    $TAGGER --mp3 "$month$YEAR_SHORT.mp3" --cover "$month$YEAR_SHORT.png" --markers "$month$YEAR_SHORT.csv" --title "Nerdland Maandoverzicht: ${month^} $YEAR_FULL" --artist "Nerdland" --overwrite
 done
 
 logNice "stop" "End of script"
