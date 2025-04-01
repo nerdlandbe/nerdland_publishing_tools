@@ -14,6 +14,7 @@ The **input** is (take note of the monthYY naming scheme):
     * Our artwork is 960x960 pixels and usually comes in < 1 Mb, but the MP3 file format supports up to 16 Mb files. 
 * Adobe Audition **CSV file** that contains the chapter markers (eg ``april24.csv``).
     * The seperators should be TABs. An example CSV file with chapter markers is provided in ``example.csv``.
+    * So yes, it's actually a TSV file that we require ;)
 
 The **output** is:
 * A chaptered and tagged MP3 file (eg ``april24-chapters.mp3``)
